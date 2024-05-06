@@ -1,4 +1,4 @@
-package sistema;
+package controller;
 import java.util.Scanner;
 
 public class Console {
@@ -7,12 +7,18 @@ public class Console {
 
     public static int lerInt() {
         int valor = leitor.nextInt();
-        leitor.nextLine(); // limpeza de buffer
+        leitor.nextLine(); 
         return valor;
     }
 
     public static String lerString() {
         return leitor.nextLine();
+    }
+
+    public static float lerFloat() {
+        float valor = leitor.nextFloat();
+        leitor.nextLine();
+        return valor;
     }
 
 

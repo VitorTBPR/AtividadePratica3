@@ -1,4 +1,4 @@
-package abstratas;
+package model.abstratas;
 
 public abstract class Funcionario {
 
